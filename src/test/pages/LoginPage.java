@@ -23,6 +23,7 @@ public class LoginPage {
     @FindBy(id = "prependedInput2")
     public WebElement passwordInput;
 
+    //
     //driver.findElement(By.id("_submit"));
     @FindBy(id = "_submit")
     public WebElement loginBtn;
